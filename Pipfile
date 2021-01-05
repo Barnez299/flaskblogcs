@@ -11,6 +11,8 @@ flask-wtf = "*"
 wtforms = "*"
 validator = "*"
 email-validator = "*"
+flask-sqlalchemy = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.9"
