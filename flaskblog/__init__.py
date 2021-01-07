@@ -19,8 +19,8 @@ login_manager.login_view = 'login'
 login_manager.login_message_category = 'info'
 # app.config['MAIL_SERVER']='smtp.gmail.com'
 # app.config['MAIL_PORT'] = 465
-# app.config['MAIL_USERNAME'] = 'barnaby.davids@gmail.com'
-# app.config['MAIL_PASSWORD'] = 'Paxxword9###'
+# app.config['MAIL_USERNAME'] = ''
+# app.config['MAIL_PASSWORD'] = ''
 # app.config['MAIL_USE_TLS'] = False
 # app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
@@ -30,9 +30,6 @@ app.config['MAIL_USERNAME'] = '***********'
 app.config['MAIL_PASSWORD'] = '*******'
 
 mail = Mail(app)
-
-
-
 SECRET_KEY = os.urandom(32)
 app.config['SECRET_KEY'] = SECRET_KEY
 csrf = CSRFProtect(app)
