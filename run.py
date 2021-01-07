@@ -1,6 +1,6 @@
 
 from flaskblog import app
-from flaskblog import routes
+# from flaskblog import routes
 
 
 
